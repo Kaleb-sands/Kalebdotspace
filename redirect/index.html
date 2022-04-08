@@ -52,6 +52,7 @@ input{
 	margin-left: auto;
 	margin-right: auto;
 	border-color: black;
+	background-image: url('searchicon.png')
 	
 }
 button{
@@ -70,6 +71,12 @@ button{
 	border-style: double;
 	border-color: black;
 }
+.note{
+	display: block;
+	margin-top: 50px;
+	font-family: "Lucida Console", "Courier New", monospace;
+
+}
     </style>
 </head>
 <script type="text/javascript">
@@ -87,6 +94,7 @@ button{
     <div>
         <input type="text" id="url" name="url" placeholder="Website Address...">
         <button onclick="redirect()">Go</button>
+		<p align="center" class="note" >Note: You will need to add https:// to the beginning of the url</p>
     </div>
 </body>
 </html>
