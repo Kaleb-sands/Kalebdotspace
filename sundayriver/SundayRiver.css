@@ -8,6 +8,7 @@ body{
     margin: 0px;
     border: 0px;
     background: lightgray;
+    text-decoration: none;
 }
 h1{
     padding-left: 10px;
@@ -42,4 +43,14 @@ button{
 }
 .Warning{
     color: red;
+}
+ol{
+    color: black;
+
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
 }
