@@ -13,9 +13,6 @@ ul{
 	padding: 0;
 	margin: 0;
 }
-div ol li:before{
-	content: "Episode ";
-}
 nav ul li{
 	font-size: 30px;
 	margin: 8px 6px;
@@ -32,7 +29,7 @@ nav h1{
 body{
 	background: white; 
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 	color: black;
 }input{
 	display: block;
@@ -43,4 +40,31 @@ body{
 	margin-top: 10px;
 }.movies{
 	margin-left: 10px;
+}.movie_cover{
+	display: inline-block;
+	padding-top: 10px;
+}.movie_list ol li{
+	text-wrap: wrap;
+	margin-right: auto;
+	padding: 10px;
+	size: 15px;
+}.movie_list ol li a{
+	text-wrap: wrap;
+	margin-right: auto;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}.movie_list ol li a:hover{
+	text-wrap: wrap;
+	margin-right: auto;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	background-color: lightgray;
+	border-radius: 5px;
+}video{
+	display: block;
+	margin: auto;
 }
