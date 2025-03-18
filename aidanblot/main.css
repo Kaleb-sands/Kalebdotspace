@@ -34,4 +34,13 @@ body{
 	margin: 0;
 	padding: 0;
 	color: black;
+}input{
+	display: block;
+	margin: 0 auto;
+}.submit{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}.movies{
+	margin-left: 10px;
 }
