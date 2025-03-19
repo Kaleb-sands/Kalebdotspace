@@ -22,6 +22,7 @@ nav{
 	column-count: 2;
 	background: darkgray;
 	color: black;
+	filter: drop-shadow(0 0 0.4rem black);
 }
 nav h1{
 	margin: 8px 6px;
@@ -64,6 +65,14 @@ body{
 	color: black;
 	background-color: lightgray;
 	border-radius: 5px;
+}.movie_list ol li p{
+	text-wrap: wrap;
+	display: inline-block;
+	margin-right: auto;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
 }video{
 	display: block;
 	margin: auto;
