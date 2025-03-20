@@ -12,7 +12,7 @@
     let passcode = document.getElementById("passcode").value;
 
     // Fetch passwords from the JSON file
-    fetch("passwords.json")
+    fetch("password.json")
         .then(response => response.json())
         .then(data => {
             if (data[passcode]) {
