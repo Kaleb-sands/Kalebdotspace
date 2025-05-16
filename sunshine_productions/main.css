@@ -89,4 +89,8 @@ body{
 	margin-left: 10px;
 }iframe{
 	margin-left: 15px;
+}.archive_text{
+	size: 20px;
+	text-decoration: none;
+	display: inline-block;
 }
